@@ -1,0 +1,19 @@
+{
+    "name": "pyfunctionnal",
+    "version": "1.0.0",
+    "factorio_version": "1.1",
+    "title": "Py Functionnal (Revive update)",
+    "author": "Slasherbane",
+    "contact": "",
+    "homepage": "",
+    "description": "Adds missing recipe for py suite for massive waste ressource",
+    "dependencies": [
+        "pycoalprocessing >= 1.3.5",
+        "pyfusionenergy >= 1.3.0",
+        "pyhightech >= 1.2.8",
+        "? pyrawores >= 1.5.5",
+        "stdlib >= 1.2.2",
+        "? pypetroleumhandling >= 1.2.7",
+        "! SchallOilFuel"
+    ]
+}

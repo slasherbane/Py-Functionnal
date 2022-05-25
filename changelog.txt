@@ -1,0 +1,294 @@
+Date: 29/12/2021
+Version 0.8.1
+  Changes:
+        - Updated Version thanks to pt-hermit and mglauche
+        - cleening up coding
+---------------------------------------------------
+Date: 23/10/2021
+Version 0.7.6
+  Changes:
+		- Changed all references of __pyfunctionnal__ to __pyfunctionnal_update__ 
+---------------------------------------------------
+Date: 10/01/2021
+Version 0.7.5
+  Changes:
+        - updated to version 1.1 (untill Slasherbane update his mod)
+---------------------------------------------------
+Date: 30/05/2020
+Version 0.7.4
+  Bughfixes:
+	- Correct a small mistake
+---------------------------------------------------
+Date: 30/05/2020
+Version 0.7.3
+  Changes:
+	- Change the time to make omega from tailing (400 -> 60 ) because its too long
+	- Add a way to liquified the solid omega
+	- Removed the probability to get a second omega in a recipe to avoid infinite cyclic source of it with the new liquifing recipe
+	- Now you can enriched your omega with ash and sulfur to make more of it  but oil and water are needed too ! 
+	- Balanced the ammonia heating recipe
+	- Change the machine for the new propene chain
+---------------------------------------------------
+Date: 27/05/2020
+Version 0.6.7
+  Changes:
+	- Change ammonia heating recipe now 100 ammonia instead of 300 and result are balanced too
+	- Add a new way to make propene from methanol in distilator (thk Naron79 for the idea) now make a new chain for it !
+	- Balanced stuff
+---------------------------------------------------
+Date: 08/05/2020
+Version 0.6.5
+  Changes:
+	- Add  new setting for purified air
+	- Add modules slot for ChemicalFactory
+  Bugfixes:
+  	- Try to fix annoying sound of the factory
+	- fix Chemicalfactory module slot not working properly
+---------------------------------------------------
+Date: 03/05/2020
+Version 0.6.2
+  Changes:
+	- Remove unused file to matched 0.18.22
+---------------------------------------------------
+Version 0.6.1
+  Changes:
+	- Tweak the amount of purified air needed for the oxygen-nitrogen cycle in the chemical factory ( 1000 -> 350)
+---------------------------------------------------
+Date: 07/04/2020
+Version 0.6.0
+  Changes:
+	- new way to make omega from tailing
+	- new way to produce oxygen with liquid nitrogen cycle
+  Bugfixes:
+  	- Fix wrong tech icon 
+---------------------------------------------------
+Date: 29/01/2020
+Version 0.5.5
+  Bugfixes:
+  	- Fix the new hierarchy of py mods for graphics , recipe and tech
+  	- Fix duplicate ingredients for chemical factory ( 0.18 bug ?)
+  	- Fix icon requirement
+---------------------------------------------------
+Date: 27/01/2020
+Version 0.5.2
+  Changes:
+    - Up to 0.18   
+  Bugfixes:
+  	- Fix omega pollution was set to none
+  	- Fix the ChemicalFactory sound distance
+---------------------------------------------------
+Date: 21/12/2019
+Version 0.4.2
+  Bugfixes:
+  	- Fix a missing recipe for Chemicalfactory after migration
+---------------------------------------------------
+Date: 20/12/2019
+Version 0.4.0
+  Changes:
+    - BREAK FEATURE : the ore factory is now the chemical factory to produce OMEGA
+    - Add the Omega a raw magic material like tholin but for petroleum uses
+    - Add a way to transform omega to olefins 
+    - Add the pure omega ( very very very high polution but powerful fuel )
+    - Coal dust can now be liquify in agitator to produce coal-water fuel with water
+    - Some little tweaks
+    - Add omega to hydrazine , ash , oleochemicals , olefins 
+    - Add 3 way to create solid omega
+    - Add a sounf for the factory 
+  Bugfixes:
+  	- Remove the old brokes orefactory logic to be more friendly with the new mining drones mod made by Klonan
+  	- Correct fluid boxes alignement with sprite
+---------------------------------------------------
+Date: 21/11/2019
+Version 0.3.5
+  Changes:
+    - Add alt recipe for iron-oxide with oxidation in electrolyser    
+---------------------------------------------------
+Date: 27/10/2019
+Version 0.3.4
+  Bugfixes:
+    - Try to Fix the collision mask error with space exploration
+---------------------------------------------------
+Date: 25/10/2019
+Version 0.3.3
+  Changes:
+  	- Change the time for base liquid glass ( fix melting time for 1 : 10 -> 3 and for 2 : 4 -> 1)
+  	- Change the glass amount for the glass crystalisation ( 1 -> 5) and time (30 -> 10)
+  	- Change the amount of glassware for the glassware cristalisation ( 1 -> 2 )
+  Bugfixes:
+    - Fix the flask recipe cristalisation not appear in the game when you have petroleum active
+    - Try to fix factories index
+    - Fix when you don't have petroleum , the error recipe loading at the start
+---------------------------------------------------
+Date: 20/10/2019
+Version 0.3.0
+  Changes:
+  	- Add a new tech to get nexelit from titanium from the start
+  	- The BOF can now be heat powered , check start settings
+  Warning:
+  	- The orefactory could be heavy modified in the next update and could broke your game! please don't update to 0.4.0 before emptying or disable it
+---------------------------------------------------
+Date: 16/09/2019
+Version 0.2.4
+  Changes:
+  	- Add a small auto-ressearch for simplicity 1 if you played with py and agels together with pycoal touch by an angels to avoid lock game at the start (thk to heka84)
+  Bugfixes:
+  	- Fix annoying message for Orefactory after click on any buttons in the game 
+---------------------------------------------------
+Date: 15/09/2019
+Version 0.2.3
+  Changes:
+  	- Reorder some codes for lisibility
+  	- Now the Orefactory as a special button gui and please use shift + y by default to selected one. Note that if you selected another one the config  is destroyed. If you change the config all ressource from the machine is destroyed be aware please !
+  Bugfixes:
+  	- Fix Orefactory colision bugs and craches 
+  	- Correct string localization
+  	- Correct a bug after destroying a factory in mode 2 all output storage for all factory was destroy if the factory was on west side	
+---------------------------------------------------
+Date: 14/09/2019
+Version 0.2.2
+  Changes:
+	- Make pyrawores and pypetroleumhandling optional
+---------------------------------------------------
+Date: 05/09/2019
+Version 0.2.1
+  Bugfixes:
+    - Fix bad optimization could eat monstruous amount of ups in medium and large map due to control.lua 
+---------------------------------------------------
+Date: 05/09/2019
+Version 0.2.0
+  Changes:
+    - Add a special and very usefull building: the Orefactory ! run only if the power supply is at the max charge , but mine 
+    	 with a very long range and high speed and have 4 output currently ! (In the near futur this building could be upgrade and modify)
+    - Add a tech for the Orefactory
+  Bugfixes:
+    - Fix wrong flask icon display
+    - Reorganize control code
+---------------------------------------------------
+Date: 28/08/2019
+Version 0.1.16
+  Changes:
+    - Add new settings for power house and flask:
+	- Option to turn power house electrical powered
+	- Option to disable coke in powerhouse recipe but oxygen instead
+	- Option to enable or disable overriding of the flask recipe
+    - Add 3 tiers of thenologies to simplify your life with the mod :p
+  Bugfixes:
+    - Fix the hydrazine and hydrazine icon color
+    - Reorganize some code
+    - if someone can help me to fix the smoke effect for the power house please :)
+---------------------------------------------------
+Date: 26/08/2019
+Version 0.1.15
+  Changes:
+    - Add a way to create rocket fuel with hydrazine
+    - Add Javel
+    - Add liquid hydrazine
+    - Add a setting to enable some old recipe, please tell me what recipe you want to call "old" now
+    - Add a second recipe to make glass with flux
+  Bugfixes:
+    - Fix the melting time for glass and other similar recipe
+---------------------------------------------------
+Date: 16/08/2019
+Version 0.1.14
+  Changes:
+    - Add the coke bar , a little more efficient than 27 coke but need 27 coke and have 150Mj burn value
+  Bugfixes:
+    -Fix the overriding of the part 01 recipe
+---------------------------------------------------
+Date: 15/08/2019
+Version 0.1.13	
+  Bugfixes:
+    -Fix the wrong recipe for glass
+---------------------------------------------------
+Date: 15/08/2019
+Version 0.1.12	
+  Changes:
+    - Add the ability to make glass from sand
+    - Add alternative recipe for small parts 01
+    - Add Base liquid glass
+  Bugfixes:
+    -Fix the wrong back icon tab
+    -Fix string localization
+    -Fix recipe probability      
+---------------------------------------------------
+Date: 14/08/2019
+Version 0.1.11	
+  Changes:
+    - Add the ability to make methanol with methane throught crystaliser and mordenite chain in methanol reactor
+    - Add copper doper mordenite and mordenite an artifical ore to create methanol 
+    - Change mod structure
+---------------------------------------------------
+Date: 14/08/2019
+Version 0.1.10 OUT	
+  Changes:
+    - Add the Crystallizer building for methane to methanol recipe . Currently the building is only for decoration but soon it could be useful ;)
+    - Add a custom tab for the mod
+    - Organize new recipe and item in the mod tab
+    - remove unless code
+---------------------------------------------------
+Date: 13/08/2019
+Version 0.1.10	
+  Changes:
+    - Reedit crisdec work in official update
+---------------------------------------------------
+Date: 09/08/2019
+Version 0.1.9	
+  Changes:
+    - added py petroleum handling as depended mod
+    - some recipes balancing
+    - add a way to produce acetylene from methane and hot air
+    - added english locale (thanks to aklesey1)
+---------------------------------------------------
+Date: 07/08/2019
+Version 0.1.8	
+  Changes:
+    - added stdlib as depended mod
+    - fixed 2 recipes (thanks to aklesey1)
+
+---------------------------------------------------
+Version 0.1.7	
+  Changes:
+    - add a way to make hydrogen from ammonia and hot air
+    - add a way to make chlorine from hydrogen chloride and oxygen
+
+a big special thanks to immortal_sniper1 for the recipes
+
+---------------------------------------------------
+Version 0.1.6	
+  Changes:
+    - Updated flask recipe (new flask icon) on pycoalprocessing
+
+---------------------------------------------------
+Version 0.1.5	
+  Changes:
+    - Remove the salt ex recipe modification. Is not longer useful
+
+---------------------------------------------------
+Version 0.1.4	
+  Changes:
+    - Update to 0.17
+
+---------------------------------------------------
+Version 0.1.3	
+  Changes:
+    - add a way to make methane from waste water and dirty water.
+  Bugfixes:
+    - Fix the icon for liquifing tailings recipe
+---------------------------------------------------
+Version 0.1.2	
+  Changes:
+    - change the amount to make iron plate from iron oxide (2 -> 10)
+    - change the recipe of flask ( why wood ?) (8 glass -> 10 = 2 flask)
+  Bugfixes:
+    - restore the original recipe for coal slurry
+    - adjust the amout of acid gas give by the flue gas concentration recipe 
+---------------------------------------------------
+Version 0.1.1	
+  Changes:
+    -change the machine for the liquifing tailings recipe
+    - add stable recipe for salt with saline water ( 50% -> 100%)
+    - add a way to recycle the flue gas to acid gas with compressor 
+  Bugfixes:
+    -change the amount of tailings give by the liquifing tailings recipe ( 1000 -> 400) 
+	
+ 
