@@ -129,7 +129,7 @@ if mods["pyrawores"] then
             {type = "item", name = "sand", amount = 26}
         },
         results = {
-            {type = "fluid", name = "molten-glass", amount = 20}
+            {type = "fluid", name = "molten-glass", amount = 10}
         },
         main_product = "molten-glass",
         subgroup = "Func-fluid",
@@ -145,11 +145,11 @@ if mods["pyrawores"] then
         enabled = false,
         energy_required = 1,
         ingredients = {
-            {type = "item", name = "sand", amount = 26},
+            {type = "item", name = "sand", amount = 20},
             {type = "item", name = "sodium-hydroxide", amount = 2}
         },
         results = {
-            {type = "fluid", name = "molten-glass", amount = 20}
+            {type = "fluid", name = "molten-glass", amount = 10}
         },
         main_product = "molten-glass",
         subgroup = "Func-fluid",
@@ -262,7 +262,7 @@ else
         results = {
             {type = "fluid", name = "molten-glass", amount = 10}
         },
-        main_product = "base-liquid-glass",
+        main_product = "molten-glass",
         subgroup = "Func-fluid",
         order = "a"
     }:add_unlock("simplicity")

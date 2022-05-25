@@ -11,9 +11,9 @@
         "pycoalprocessing >= 1.3.5",
         "pyfusionenergy >= 1.3.0",
         "pyhightech >= 1.2.8",
-        "? pyrawores >= 1.5.5",
+        "pyrawores >= 1.5.5",
         "stdlib >= 1.2.2",
-        "? pypetroleumhandling >= 1.2.7",
+        "pypetroleumhandling >= 1.2.7",
         "! SchallOilFuel"
     ]
 }

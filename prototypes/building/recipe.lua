@@ -23,7 +23,8 @@ if mods["pypetroleumhandling"] then
             {"small-parts-01", 100},
             {"pipe", 50},
             {"pipe-to-ground", 20},
-            {"electronic-circuit", 10}
+            {"electronic-circuit", 10},
+            {"stone-furnace", 1}
         },
         result = "Chemical-factory"
     }:add_unlock("Chemicalfactory")
@@ -57,5 +58,5 @@ else
             {"transport-belt", 32}
         },
         result = "Chemical-factory"
-    }:add_unlock("Orefactory")
+    }:add_unlock("Chemicalfactory")
 end
