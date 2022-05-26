@@ -37,11 +37,3 @@ if settings.startup["proficient-purified-air"].value then
 }
 Log("Proficient purified air is active...") 
 end
-
---[[RECIPE("flask")
-  :convert_results()
-  :replace_result("flask",{type="item",name="flask", amount=2})
-  :remove_ingredient("wood")
-  :replace_ingredient("glass",{type="item", name="glass", amount=10})
-  not working ???
-   ]]--
